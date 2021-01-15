@@ -23,7 +23,7 @@ with open('README.md') as readme:
     long_description = readme.read()
 
 setup(
-    name="SparkSQL Driver for SQLAlchemy",
+    name="sqlalchemy-sparksql",
     version=sqlalchemy_sparksql.__version__,
     description="SparkSQL Driver for SQLAlchemy",
     long_description=long_description,
