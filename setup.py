@@ -31,7 +31,7 @@ setup(
     author="Matt Sanchez",
     author_email="matt at c12.com",
     license="Apache License, Version 2.0",
-    packages=['pyhive', 'TCLIService'],
+    packages=['sqlalchemy_sparksql'],
     classifiers=[
         "Intended Audience :: Developers",
         "License :: OSI Approved :: Apache Software License",
