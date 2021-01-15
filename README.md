@@ -1,2 +1,2 @@
 # SparkSQL for SQLAlchemy
-This library extends PyHive with support for the SparkSQL flavor of Apache Hive. 
+This library extends PyHive with support for a SQLAlchemy dialect for the SparkSQL flavor of Apache Hive. It provides the changes proposed in [PR #247](https://github.com/dropbox/PyHive/pull/247) from the PyHive repo.  Instead of using ```hive://```, you can use ```sparksql://``` for directly connecting to the Thrift binary protocol of HiveServer2 running in a Spark cluster.  See [PyHive](https://github.com/dropbox/PyHive) for docs on general Hive usage.
